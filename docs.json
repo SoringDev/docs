@@ -1,56 +1,76 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "INFO 0124",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#12992d",
+    "light": "#07c90d",
+    "dark": "#06911d"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Geral",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
+            "group": "Visão Geral",
+            "pages": ["introducao", "objetivos", "referencias"]
           },
           {
-            "group": "Essentials",
+            "group": "Desenvolvimento",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "codes/tecnologias",
+              "codes/planejamento",
+              "codes/implementacao",
+              "codes/testes",
+              "codes/integracao",
+              "codes/publicacao",
+              "codes/acessibilidade",
+              "codes/impacto"
             ]
           }
         ]
       },
+      {
+        "tab": "Sobre",
+        "groups": [
+          {
+            "group": "Projeto de Pesquisa",
+            "pages": ["metodologia", "aplicacao", "analise", "cronograma", "resultados", "contribuicao"]
+          },
+          {
+            "group": "Quem somos nós",
+            "pages": [
+              "codes/tecnologias",
+              "codes/planejamento",
+              "codes/implementacao",
+              "codes/testes",
+              "codes/integracao",
+              "codes/publicacao",
+              "codes/acessibilidade",
+              "codes/impacto"
+            ]
+          }
+        ]
+      }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Código Fonte",
+          "href": "https://github.com/SoringDev",
+          "icon": "code"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Download do Game",
+          "href": "https://github.com/SoringDev",
+          "icon": "download"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Sobre o Projeto",
+          "href": "https://google.com",
+          "icon": "circle-info"
         }
       ]
     }
@@ -62,21 +82,20 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Suporte",
+        "href": "mailto:sps20@aluno.ifnmg.edu.br"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Download Game",
+      "href": "https://github.com/SoringDev"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/SoringDev",
+      "instagram": "https://www.instagram.com/info_0124/"
     }
   }
 }
